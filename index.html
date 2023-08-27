@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamDown</title>
     <link href="./css/global-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/homepage.style.css">
 </head>
 <body>
+    <div class="global-sidebar-bg">
+        <div class="global-sidebar-bg__content" id="sidebarId">
+            <div class="global-sidebar-bg__logo-and-exit-box">
+                <div>
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div>
+                    <button onclick="closeNav()">
+                        X
+                    </button>
+                </div>
+            </div>
+            <ul class="">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
     <header class="global-header">
         <div class="global-header__top-box">
             <div class="global-header__logo">
@@ -23,6 +48,9 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <div class="global-header__hamburger-box">
+                <span style="font-size:27px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
         </div>
     </header>
     <section class="section-one">
@@ -40,8 +68,21 @@
             </div>
             <div class="section-one__right-div">
                 <img class="section-one__digital-marketing-img" src="./images/Digital-Marketing-2048x1366.png" alt="">
+                <div class="section-one__main-feature-box">
+                    <div>
+                        <h6>
+                            Main Features
+                        </h6>
+                    </div>
+                    <div>
+                        <h5>
+                            24/7 Hours Open
+                        </h5>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <script src="./script/script.js" type="text/javascript"/>
 </body>
 </html>
