@@ -2,6 +2,9 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+}
 :root{
     
     --global-width-992px: 75%;
@@ -10,19 +13,20 @@
     --global-color-accent-2: #FF009D;
 
 
-    --title-font-size: 2.5em;
+    --title-font-size: 2.3rem;
     --title-font-weight: 700;
     --title-line-height: 1.2rem;
     --title-margin: 20px 0px 20px 0px;
     --title-text-transformation: capitalize;
-
         
     --paragraph-color: #828282;
     --paragraph-line-height: 1.9rem;
     --paragraph-font-size: 1.1rem;
     --paragraph-font-weight: 100;
-    --paragraph-margin: 20px 15px 20px 15px;
+    --paragraph-margin-992px: 25px 0px 25px 0px ;
+    --paragraph-margin-600px: 20px 15px 20px 15px;
 
+    /* Mainly used by pink text */
     --global-h6-font-size: 18px;
     --global-h6-line-height: 1.1em;
 
@@ -46,10 +50,10 @@
     /* --button-hover-border-style: */
 
 
-    --box-info-shadow: 1px 4px 60px #acacac;
+    --box-info-shadow: 1px 4px 70px #c8c8c8;
     --box-info-border-radius: 5px 5px 5px 5px;
 
-
+    --global-image1-border-radius: 17px;
 }
 /* Global header */
 
