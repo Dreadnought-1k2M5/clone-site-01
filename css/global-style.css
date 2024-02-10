@@ -5,6 +5,7 @@
 a{
     text-decoration: none;
 }
+
 :root{
     
     --global-width-992px: 90%;
@@ -29,6 +30,7 @@ a{
     /* Mainly used by pink text */
     --global-h6-font-size: 18px;
     --global-h6-line-height: 1.1em;
+    --global-h6-font-weight: 600;
 
     --global-h5-font-size: 24px;
     --global-h5-font-weight: 600;

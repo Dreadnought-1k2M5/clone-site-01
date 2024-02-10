@@ -1,0 +1,19 @@
+{
+  "name": "clone-site-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreadnought-1k2M5/clone-site-01.git"
+  },
+  "author": "jlumanog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dreadnought-1k2M5/clone-site-01/issues"
+  },
+  "homepage": "https://github.com/Dreadnought-1k2M5/clone-site-01#readme",
+  "description": ""
+}

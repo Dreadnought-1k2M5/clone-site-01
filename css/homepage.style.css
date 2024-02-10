@@ -21,6 +21,7 @@
     .section-one-bg__left-div > h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
     }
     .section-one-bg__title{
         font-size: var(--title-font-size);
@@ -81,6 +82,7 @@
     .section-one-bg__main-feature-box > div > h6{
         font-size: var(--global-h6-font-size);
         color: var(--global-color-accent);
+        font-weight: var(--global-h6-font-weight);
     }
     .section-one-bg__main-feature-box > div > h5{
         font-size: var(--global-h5-font-size);
@@ -108,6 +110,8 @@
     .section-two__h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
+
         margin: 15px 0px;
     }
     .section-two__title{
@@ -186,6 +190,8 @@
     .section-three__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
+
         color: var(--global-color-accent-2);
     }
     .section-three__title{
@@ -225,12 +231,13 @@
     .section-three__profile-box{
         display: flex;
         align-items: center;
+
     }
-    .section-three__profile-box >img{
+    .section-three__profile-box > div > img{
         border-radius: 50%;
         width: 50px;
         height: 50px;
-        margin: 30px 20px 30px 0px;
+        margin: 10px 20px 30px 0px;
     }
 
     .section-three__profile-box > div > a{
@@ -295,6 +302,8 @@
     .section-four-bg__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
+
         color: var(--global-color-accent-2);
     }
     .section-four-bg__title{
@@ -341,6 +350,107 @@
         margin: var(--paragraph-margin-992px);
     }
 
+    .section-five-bg{
+        width: var(--global-width-992px);
+        margin: 40px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-five-bg__box1{
+        width: 50%;
+        text-align: center;
+    }
+    .section-five-bg__box1 > h6{
+        color: var(--global-color-accent-2);
+        font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
+    }
+    .section-five-bg__title{
+        font-size: var(--title-font-size);
+        font-weight: var(--title-font-weight);
+        margin: var(--title-margin);
+        text-transform: var(--title-text-transformation);
+    }
+
+    .swiper {
+        width: 80%;
+        height: 500px;
+    }
+    /* remove arros from the frame - meaning arrows don't overlap with the content of the slide */
+    .swiper-item{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .swiper .swiper-pagination-bullet{
+        background-color: rgb(40, 40, 40);
+    }
+
+    .swiper [class^='swiper-button-']::after{
+        font-size: 1.4rem;
+        color: rgb(40, 40, 40);
+    }
+
+    .img-person{
+        width: 130px; /* Set your desired width */
+        height: 130px; /* Set your desired height, which should be the same as the width */
+        border-radius: 50%; /* This creates a circular shape by rounding the corners */
+        object-fit: cover; /* Ensures the image cover | elliminates stretch */
+    }
+    .swiper-paragraph{
+        color: var(--paragraph-color);
+        text-align: center;
+        font-style: italic;
+    }
+    .swiper-name{
+        font-weight: 700;
+        color: black;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .swiper-customer-label{
+        font-weight: 600;
+        color: #ff2a6a9f;
+        text-transform: uppercase;
+    }
+
+    .section-six-bg{
+        background: linear-gradient(0deg, #adcfff, rgb(255, 255, 255));
+
+    }
+    .section-six-bg__parentBox{
+        display: flex;
+        width: var(--global-width-992px);
+        margin: auto;
+        padding: 5px 5rem;
+        margin-top: 50px;
+        padding: 100px;
+    }
+    .section-six-bg__box1{
+        width: 30%;
+    }
+    .section-six-bg__box1 > p{
+        color: var(--paragraph-color);
+    }
+    .section-six-bg ul{
+        list-style-type: none;
+    }
+
+    .section-six-bg__box2{
+        width: 20%;
+    }
+    .section-six-bg__box2 > ul > li, .section-six-bg__box3 > ul > li{
+        margin-bottom: 20px;
+    }
+
 }
 
 /* tablet */
@@ -372,6 +482,7 @@
     .section-one-bg__left-div > h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
         margin: 10px 0px;
     }
     .section-one-bg__title{
@@ -436,6 +547,7 @@
     }
     .section-one-bg__main-feature-box > div > h6{
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
         color: var(--global-color-accent);
     }
     .section-one-bg__main-feature-box > div > h5{
@@ -466,6 +578,7 @@
     .section-two__h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
         margin: 15px 0px;
     }
     .section-two__title{
@@ -548,6 +661,7 @@
     .section-three__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
         color: var(--global-color-accent-2);
     }
     .section-three__title{
@@ -576,7 +690,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .section-three__profile-box > img{
+    .section-three__profile-box > div > img{
         border-radius: 50%;
         width: 50px;
         height: 50px;
@@ -639,6 +753,7 @@
     .section-four-bg__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
         color: var(--global-color-accent-2);
     }
     .section-four-bg__title{
@@ -685,6 +800,112 @@
         margin: var(--paragraph-margin-992px);
     }
 
+    
+    .section-five-bg{
+        width: var(--global-width-600px);
+        margin: 40px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-five-bg__box1{
+        width: 50%;
+        text-align: center;
+    }
+    .section-five-bg__box1 > h6{
+        color: var(--global-color-accent-2);
+        font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
+    }
+    .section-five-bg__title{
+        font-size: var(--title-font-size);
+        font-weight: var(--title-font-weight);
+        margin: var(--title-margin);
+        text-transform: var(--title-text-transformation);
+    }
+
+    .swiper {
+        width: 100%;
+        height: 500px;
+    }
+    /* remove arros from the frame - meaning arrows don't overlap with the content of the slide */
+    .swiper-item{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .swiper .swiper-pagination-bullet{
+        background-color: rgb(40, 40, 40);
+    }
+
+    .swiper [class^='swiper-button-']::after{
+        font-size: 1.4rem;
+        color: rgb(40, 40, 40);
+    }
+
+    .img-person{
+        width: 130px; /* Set your desired width */
+        height: 130px; /* Set your desired height, which should be the same as the width */
+        border-radius: 50%; /* This creates a circular shape by rounding the corners */
+        object-fit: cover; /* Ensures the image cover | elliminates stretch */
+    }
+    .swiper-paragraph{
+        color: var(--paragraph-color);
+        text-align: center;
+        font-style: italic;
+    }
+    .swiper-name{
+        font-weight: 700;
+        color: black;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .swiper-customer-label{
+        font-weight: 600;
+        color: #ff2a6a9f;
+        text-transform: uppercase;
+    }
+
+    .section-six-bg{
+        background: linear-gradient(0deg, #adcfff, rgb(255, 255, 255));
+
+    }
+    .section-six-bg__parentBox{
+        display: flex;
+
+        width: var(--global-width-992px);
+        margin: auto;
+        padding: 5px 5rem;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .section-six-bg__box1{
+        width: 40%;
+    }
+    .section-six-bg__box1 > p{
+        color: var(--paragraph-color);
+    }
+    .section-six-bg ul{
+        list-style-type: none;
+    }
+
+    .section-six-bg__box2{
+        width: 25%;
+    }
+    .section-six-bg__box2 > ul > li, .section-six-bg__box3 > ul > li{
+        margin-bottom: 20px;
+    }
+    
+
+
+
 }
 
 
@@ -717,6 +938,7 @@
     .section-one-bg__left-div > h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
         margin: 10px 0px;
     }
     .section-one-bg__title{
@@ -782,6 +1004,7 @@
     .section-one-bg__main-feature-box > div > h6{
         font-size: var(--global-h6-font-size);
         color: var(--global-color-accent);
+        font-weight: var(--global-h6-font-weight);
     }
     .section-one-bg__main-feature-box > div > h5{
         font-size: var(--global-h5-font-size);
@@ -802,6 +1025,7 @@
     .section-two__h6{
         color: var(--global-color-accent-2);
         font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
         margin: 15px 0px;
     }
     .section-two__title{
@@ -867,6 +1091,7 @@
     .section-three__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
         color: var(--global-color-accent-2);
     }
     .section-three__title{
@@ -895,7 +1120,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .section-three__profile-box > img{
+    .section-three__profile-box > div > img{
         border-radius: 50%;
         width: 50px;
         height: 50px;
@@ -974,6 +1199,7 @@
     .section-four-bg__box-one > h6{
         font-size: var(--global-h6-font-size);
         line-height: var(--global-h6-line-height);
+        font-weight: var(--global-h6-font-weight);
         color: var(--global-color-accent-2);
     }
     .section-four-bg__title{
@@ -1016,6 +1242,108 @@
         font-size: var(--paragraph-font-size);
         font-weight: var(--paragraph-font-weight);
         margin: var(--paragraph-margin-992px);
+    }
+
+
+    .section-five-bg{
+        width: var(--global-width-600px);
+        margin: 40px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-five-bg__box1{
+        width: 90%;
+    }
+    .section-five-bg__box1 > h6{
+        color: var(--global-color-accent-2);
+        font-size: var(--global-h6-font-size);
+        font-weight: var(--global-h6-font-weight);
+    }
+    .section-five-bg__title{
+        font-size: var(--title-font-size);
+        font-weight: var(--title-font-weight);
+        margin: var(--title-margin);
+        text-transform: var(--title-text-transformation);
+    }
+
+    .swiper {
+        width: 100%;
+        height: 500px;
+    }
+    /* remove arros from the frame - meaning arrows don't overlap with the content of the slide */
+    .swiper-item{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .swiper .swiper-pagination-bullet{
+        background-color: rgb(40, 40, 40);
+    }
+
+    .swiper [class^='swiper-button-']::after{
+        font-size: 1.4rem;
+        color: rgb(40, 40, 40);
+    }
+
+    .img-person{
+        width: 130px; /* Set your desired width */
+        height: 130px; /* Set your desired height, which should be the same as the width */
+        border-radius: 50%; /* This creates a circular shape by rounding the corners */
+        object-fit: cover; /* Ensures the image cover | elliminates stretch */
+    }
+    .swiper-paragraph{
+        color: var(--paragraph-color);
+        text-align: center;
+        font-style: italic;
+    }
+    .swiper-name{
+        font-weight: 700;
+        color: black;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .swiper-customer-label{
+        font-weight: 600;
+        color: #ff2a6a9f;
+        text-transform: uppercase;
+    }
+
+    .section-six-bg{
+        background: linear-gradient(0deg, #adcfff, rgb(255, 255, 255));
+
+    }
+    .section-six-bg__parentBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: var(--global-width-600px);
+        margin: auto;
+        margin-top: 50px;
+        /* padding: 20px; */
+    }
+    .section-six-bg__box1{
+            width: 100%;
+    }
+    .section-six-bg__box1 > p{
+        color: var(--paragraph-color);
+    }
+    .section-six-bg ul{
+        list-style-type: none;
+    }
+
+    .section-six-bg__box2{
+
+    }
+    .section-six-bg__box2 > ul > li, .section-six-bg__box3 > ul > li{
+        margin-bottom: 20px;
     }
 
 }
